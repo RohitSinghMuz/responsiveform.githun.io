@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <title>Application for Scholarship</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="container">
+        <h3>Application for Scholarship</h3>
+        <form>
+            <input type="text" placeholder="First Name" aria-label="First Name" id="forma" /><br>
+            <input type="text" placeholder="Last Name" id="forma" /><br>
+            <input type="email" placeholder="Email" id="forma" /><br>
+            <input type="tel" placeholder="Mobile Number" id="forma" />
+            <br />
+            <br />
+            <fieldset id="legand">
+                <legend>Select Gender</legend>
+
+                <input id="gender_male" type="radio" name="gender" />
+                <label for="gender_male">Male</label>
+
+                <input id="gender_female" type="radio" name="gender" />
+                <label for="gender_female">Female</label>
+
+                <input id="gender_other" type="radio" name="gender" />
+                <label for="gender_other">Other/Prefer not to say</label>
+            </fieldset>
+            <br />
+            <input type="date" id="date" />
+            <input type="range" /><br>
+            <input type="month" id="month" /><br>
+            <input type="file" id="file" /><br>
+            <input type="text" placeholder="Guardian Name" id="parent" /><br>
+            <textarea placeholder="Why do you want this scholarship" id="sch"></textarea><br>
+            <!-- <textarea></textarea> -->
+            <select id="kota">
+                <option>General</option>
+                <option>OBC</option>
+                <option>SC/ST</option>
+                <option>PWS / EWS </option>
+                <option>Other / Prefer not to say</option>
+            </select>
+            <br>
+            <input type="submit" id="sub" />
+            <input type="reset" id="sub" />
+        </form>
+    </div>
+</body>
+
+</html>
